@@ -8,17 +8,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AZmiGBD/////AAABmbeNLFj210Bxq32foFzZRZMKEPvasfxu9IdpSEmxFgF8RiHqFYn0THpWBGjC/k0g2KC0SdCMgw2so5hoSt+L8A1AZs8/SqiXSs2VoGx1en+5WLzbONdd11qleZwBZmW9N/VpAXoObSuSh2Qzbcw3xyOwyTTUibzaAnQxe0TAx0dbbw6lRPHelE8waIc4WrdXvlbQeg3UsYf8Ass5OL6JZhq9N8I7yY4ZQS5GV2We4t+lLt2l+DY1AFEsSWRdXfBU4txT+utRZ8Tv6xHu7qdP5Bdzl9MjTouMZllpWveJ3B/iwdH1YE9eCQBAOUEyV+UQtYEEKpLWij5lCzbgKSHmi0smGkN5b8k2AYCB1xUyRIpH
-    ufoLicenseKey: QVZGUlNWai8vLy8vQUFBQUtQa1pxVDV3UlVyMnVNYzIzL0ljTTlCd2FPcFcrZ3ovc05halZvaXppak9XbFMwUnloZ2dUV0plL1RDSVFiTGVlUUZFSmpCR20zb0t0bzI0eVduUHI1VkZqVk54dzlCV3JDVkhKNTdINThjOWdNSTE4SFUrZlc5L2tQSVNDSW5kbVVZNGRkYXRhbU5DR0JMWnRmUnp4eW5RcEo0cDVVdHVMNXJUL2JiRmp2YkFKSWcvdlBEUlQzd1A0RnhNUGsrNVNOWk5jV3RyZVg2UUZTSXIveU1ZYzJYdmp1RVY0UGFZQk5qR3ZkV01USGQ1M1J4Q3NGU2ZOMkRvd1JoelplMmpGV1RYenR6OCtleXNqeGF0eEhvZ0JCMlFFOTRjRHBjSDBmYmR4eHFFSFB2dG1qZjc0L0Rpa2h4N1E0cEYzdy8yOExGVHQ3ZHpvbnZ5bTVzZUt1RGhIN2V3aTJFL1NhSVRiUSszQUxKdHM2Sm8=
+    ufoLicenseKey: QVZxYmRCLy8vLy8vQUFBQUtOeEV6Lzc2cFVNQXVsRlp0STcvUVEwMlFFVXM4K05SMC9RR28wUUVKVFQ3aHdySk1Zb0JpcWdlUE5UakViQmpsUWsyTEx3dHZPTi9mcHJzaUhuSmREZkhWbVFMNTlnRkRpZW1YR2hvR3ZaWnFjYXZOYndhZmZVTytjekZHTWdLUW1VaXNSZVBGS2R3NW9XNkd2YitreEt0aHE5b3dVYTR2SmljbzVVVDljeFo3N1dudFAyVG5Rb2VRWHV5Ym1FSkFXVE9ieFpyc1h2MGZiWlRtbW9RUFNINUd0Q3ZRbjRtRmlVMDdMSkd6RjNHQU5sTTh1UVJjaTRoWkVxakVITmRYY3FtVlBTWmtoVXlzcmlYWDFkSExHT3gzUVdDUkdDYVY4ZkQ1bk9CaDNKZlVzSG9lM2lYempIWmZ6d24yTHlJaFRyQzRHQUJoRGNTV2pRSElNb0NpNnN2NWZhOENpdjRicnRrYm5TditJbWQ=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    maxSimultaneousImageTargets: 4
+    maxSimultaneousObjectTargets: 2
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
     version: 7.5.20
@@ -54,7 +54,7 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    trackingMode: 1
+    trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
