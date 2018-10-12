@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="it-works-logo" size="10.000000 12.941176" />
     <ImageTarget name="3ds" size="10.000000 5.912017" />
   </Tracking>
 </QCARConfig>
